@@ -21,7 +21,6 @@ A blue/white aqua-like cursor theme.
 Bia³o-niebieski aquopodobny motyw kursorów.
 
 %prep
-%setup -q -n %{_name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -30,11 +29,11 @@ install -d $RPM_BUILD_ROOT%{_iconsdir}
 rm -f $RPM_BUILD_ROOT%{_iconsdir}/README
 echo "[Icon Theme]" > $RPM_BUILD_ROOT%{_iconsdir}/A-1/index.theme
 echo "Name = A-1" >> $RPM_BUILD_ROOT%{_iconsdir}/A-1/index.theme
-echo "Comment = A blue/white aqua-like cursor theme." >> $RPM_BUILD_ROOT%{_iconsdir}/%{_name}/index.theme
+echo "Comment = A blue/white aqua-like cursor theme." >> $RPM_BUILD_ROOT%{_iconsdir}/A-1/index.theme
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_iconsdir}/A1
+%{_iconsdir}/A-1
