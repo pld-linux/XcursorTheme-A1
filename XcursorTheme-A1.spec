@@ -20,8 +20,6 @@ A blue/white aqua-like cursor theme.
 %description -l pl
 Bia³o-niebieski aquopodobny motyw kursorów.
 
-%prep
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_iconsdir}
