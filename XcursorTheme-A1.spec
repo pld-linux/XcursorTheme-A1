@@ -1,6 +1,6 @@
 %define		_name A1
 Summary:	X11 cursor theme - A1
-Summary(pl.UTF-8):   Motyw kursorów dla X11 - A1
+Summary(pl.UTF-8):	Motyw kursorów dla X11 - A1
 Name:		XcursorTheme-%{_name}
 Version:	0.3
 Release:	1
