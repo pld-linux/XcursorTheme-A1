@@ -1,6 +1,6 @@
 %define		_name A1
 Summary:	X11 cursor theme - A1
-Summary(pl):	Motyw kursorÛw dla X11 - A1
+Summary(pl.UTF-8):   Motyw kursor√≥w dla X11 - A1
 Name:		XcursorTheme-%{_name}
 Version:	0.3
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A blue/white aqua-like cursor theme.
 
-%description -l pl
-Bia≥o-niebieski aquopodobny motyw kursorÛw.
+%description -l pl.UTF-8
+Bia≈Ço-niebieski aquopodobny motyw kursor√≥w.
 
 %prep 
 
